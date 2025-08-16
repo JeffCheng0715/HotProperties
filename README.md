@@ -27,8 +27,50 @@ Built with **Spring Boot**, **Spring Security (JWT)**, **Spring Data JPA**, **Hi
 - View and respond to buyer messages.  
 
 ### 👩‍💻 Admin Features
-- Manage all users (create agents, delete accounts).  
-- Oversee property listings and system data.  
+- Manage all users.  
+- Create new agents.  
+
+---
+
+## 📸 Screenshots
+
+### Authentication
+Login Page:  
+![Login Page](screenshots/login.png)  
+Register Page:  
+![Register Page](screenshots/register.png)  
+
+### Buyer
+Buyer's Dashboard:  
+![Buyer Dashboard](screenshots/buyer_dashboard.png)  
+Edit Profile:  
+![Edit Profile](screenshots/edit_profile.png)  
+Browse Properties:  
+![Browse Properties](screenshots/browse_properties.png)  
+Property Details:  
+![Property Details](screenshots/property_details.png)  
+Favorites:  
+![Favorites](screenshots/favorite_properties.png)  
+Messages:  
+![Messages](screenshots/message.png)  
+
+### Agent
+Agent's Dashboard:  
+![Agent Dashboard](screenshots/agent_dashboard.png)  
+Manage Properties:  
+![Manage Properties](screenshots/manage_properties.png)  
+Add Property:  
+![Add Property](screenshots/add_property.png)  
+Edit Property:  
+![Edit Property](screenshots/edit_property.png)  
+
+### Admin
+Admin's Dashboard:  
+![Admin Dashboard](screenshots/admin_dashboard.png)  
+Manage Users:  
+![Manage Users](screenshots/manage_users.jpg)  
+Create Agent:  
+![Create Agent](screenshots/create_agent.png)  
 
 ---
 
@@ -66,7 +108,11 @@ Built with **Spring Boot**, **Spring Security (JWT)**, **Spring Data JPA**, **Hi
    
 4. Access at: [http://localhost:8080](http://localhost:8080)
 
-## My Contribution Summary
+---
+
+## 📂 Group Repo: [https://github.com/pradnya-16/Hot-Properties-Project](https://github.com/pradnya-16/Hot-Properties-Project)
+
+## 👤 My Contribution Summary
 - Buyer features: **Browse Properties, Property Details, Filtering & Sorting**.  
 - Buyer Dashboard & Profile templates.  
 - Implemented **`PropertyService` / `BuyerService`**.  
@@ -74,4 +120,4 @@ Built with **Spring Boot**, **Spring Security (JWT)**, **Spring Data JPA**, **Hi
 - Entities: `Property`, `PropertyImage`, `Message`.  
 - Initializers: `PropertyInitializer`, `UserInitializer`.  
 - Templates: `browse_properties.html`, `property_details_view.html`, `profile.html`, `dashboard.html` (shared), `icon_only_header.html`.
-- Deployment of the application on AWS (Elastic Beanstalk + RDS)**.  
+- Deployment of the application on **AWS (Elastic Beanstalk + RDS)**.  
