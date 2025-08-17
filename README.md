@@ -6,7 +6,7 @@ Hot Properties is a full-stack real estate web application. The application simu
 Built with **Spring Boot**, **Spring Security (JWT)**, **Spring Data JPA**, **Hibernate**, **Thymeleaf**, **MySQL** and cloud deployment on **AWS Elastic Beanstalk with MySQL RDS**.
 
 🌐 **Website Link:** [http://hotproperties.us-east-2.elasticbeanstalk.com/](http://hotproperties.us-east-2.elasticbeanstalk.com/)
-
+![Home Page](screenshots/home.png)  
 ---
 
 ## ✨ Features
