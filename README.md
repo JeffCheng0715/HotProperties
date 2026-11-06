@@ -1,5 +1,5 @@
-# 🏡 Hot Properties – Full-Stack Real Estate Web Application  
-## 📖 Overview
+# Hot Properties – Full-Stack Real Estate Web Application  
+## Overview
 
 Hot Properties is a full-stack real estate web application. The application simulates a real estate platform where Buyers can browse and save properties, Agents can manage property listings, and Admins can oversee users and system operations.
 
@@ -9,30 +9,30 @@ Built with **Spring Boot**, **Spring Security (JWT)**, **Spring Data JPA**, **Hi
 ![Home Page](screenshots/home.png)  
 ---
 
-## ✨ Features
+## Features
 
-### 🔑 Authentication & Roles
+### Authentication & Roles
 - Role-based access control with JWT Security (BUYER, AGENT, ADMIN).  
 - Secure login and registration with BCrypt password hashing.  
 
-### 🏠 Buyer Features
+### Buyer Features
 - Register and manage profile.  
 - Browse properties with **filters & sorting** (zip code, sq. ft., price).  
 - View property details with image gallery.  
 - Save favorite listings for later.  
 - Send and manage messages with agents.  
 
-### 🧑‍💼 Agent Features
+### Agent Features
 - Manage own property listings (add, edit, delete).  
 - View and respond to buyer messages.  
 
-### 👩‍💻 Admin Features
+### Admin Features
 - Manage all users.  
 - Create new agents.  
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Authentication
 Login Page:  
@@ -74,7 +74,7 @@ Create Agent:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Backend**: Spring Boot, Spring Security (JWT), Spring Data JPA, Hibernate  
 - **Frontend**: Thymeleaf, HTML, CSS  
 - **Database**: MySQL (RDS in AWS for deployment)  
@@ -83,7 +83,7 @@ Create Agent:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java 17+  
@@ -110,9 +110,9 @@ Create Agent:
 
 ---
 
-## 📂 Group Repo: [https://github.com/pradnya-16/Hot-Properties-Project](https://github.com/pradnya-16/Hot-Properties-Project)
+## Group Repo: [https://github.com/pradnya-16/Hot-Properties-Project](https://github.com/pradnya-16/Hot-Properties-Project)
 
-## 👤 My Contribution Summary
+## My Contribution Summary
 - Buyer features: **Browse Properties, Property Details, Filtering & Sorting**.  
 - Buyer Dashboard & Profile templates.  
 - Implemented **`PropertyService` / `BuyerService`**.  
